@@ -5,7 +5,7 @@
 // Test for git-bash, It is Updated??
 enum directions {RIGHT, DOWN, LEFT, UP};
 //directions 0 ->, 1 down,  2 <-, 3 up
-
+// It's not changed
 struct Square {
   int value;
   int used;
