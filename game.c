@@ -1,7 +1,7 @@
 #include <stdio.h>
 #include <stdlib.h>
 #define SIZE 4
-
+// 2019 세종대학교 소프트웨어학과 오픈소스 프로젝트
 // Test for git-bash, It is Updated??
 enum directions {RIGHT, DOWN, LEFT, UP};
 //directions 0 ->, 1 down,  2 <-, 3 up
@@ -164,7 +164,7 @@ int main() {
   initBoard(board);
 
   int move = 0;
-  while(1) {
+  while(1) { // 무한 반복문은 좋지 않아
     draw(board);
     if (playerWon(board)) break;
 
