@@ -1,1 +1,5 @@
 hello 
+
+write for [git diff]
+
+write for [git diff]2
